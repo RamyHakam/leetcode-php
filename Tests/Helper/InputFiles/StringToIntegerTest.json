@@ -1,0 +1,18 @@
+{
+  "testData1": {
+    "expectedResult": 42,
+    "input": "42"
+  },
+  "testData2": {
+    "expectedResult": -42,
+    "input": "-42"
+  },
+  "testData3": {
+    "expectedResult": 0,
+    "input": "   +0 123"
+  },
+  "testData4": {
+    "expectedResult": 0,
+    "input": "++1"
+  }
+}
