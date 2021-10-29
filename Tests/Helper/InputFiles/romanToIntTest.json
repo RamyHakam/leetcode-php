@@ -1,0 +1,10 @@
+{
+  "testData1": {
+    "expectedResult": 1994,
+    "input": "MCMXCIV"
+  },
+  "testData2": {
+    "expectedResult": 3490,
+    "input": "MMMCDXC"
+  }
+}
