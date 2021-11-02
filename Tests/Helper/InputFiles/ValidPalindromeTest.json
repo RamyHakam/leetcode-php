@@ -1,0 +1,26 @@
+{
+  "testData1": {
+    "expectedResult": true ,
+    "input": "A man, a plan, a canal: Panama"
+  },
+  "testData2": {
+    "expectedResult": false ,
+    "input": "race a car"
+  },
+  "testData3": {
+    "expectedResult": true ,
+    "input": " "
+  },
+  "testData4": {
+    "expectedResult": true ,
+    "input": "aa"
+  },
+  "testData5": {
+    "expectedResult": false ,
+    "input": "ab"
+  },
+  "testData6": {
+    "expectedResult": true ,
+    "input": "abba"
+  }
+}
