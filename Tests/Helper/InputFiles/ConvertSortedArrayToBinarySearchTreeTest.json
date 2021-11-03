@@ -1,0 +1,10 @@
+{
+  "testData1": {
+    "expectedResult": true,
+    "input": [-10,-3,0,5,9]
+  },
+  "testData2": {
+    "expectedResult": true,
+    "input": [1,3]
+  }
+}
