@@ -1,7 +1,7 @@
 # LeetCode in PHP 😊🤓
 ##  My Solutions with Many different Test Caess Fully in PHP 😍
 
-![](https://github.com/RamyHakam/leet-code-php/workflows/current_build/badge.svg)
+![](https://github.com/RamyHakam/leet-code-php/workflows/Build/badge.svg)
 In this repository you can find my solutions for too many different leet code problems, I will frequently update it to add more solutions and test cases. 👌🚀
 ## Acknowledgment ✋
 
