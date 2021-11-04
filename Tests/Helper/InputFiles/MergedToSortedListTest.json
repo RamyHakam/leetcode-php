@@ -1,13 +1,13 @@
 {
-  "testData1": {
+  "testCase1": {
     "expectedResult": [1,1,2,3,4,4],
     "input": [[1,2,4],[1,3,4]]
   },
-  "testData2": {
+  "testCase2": {
     "expectedResult": [],
     "input": []
   },
-  "testData3": {
+  "testCase3": {
     "expectedResult": [-4,-1,3,5,9,12,16,20],
     "input": [[-1,5,20],[-4,3,5,9,12,16]]
   }

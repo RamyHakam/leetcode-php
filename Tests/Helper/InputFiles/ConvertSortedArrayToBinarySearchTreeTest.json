@@ -1,9 +1,9 @@
 {
-  "testData1": {
+  "testCase1": {
     "expectedResult": true,
     "input": [-10,-3,0,5,9]
   },
-  "testData2": {
+  "testCase2": {
     "expectedResult": true,
     "input": [1,3]
   }

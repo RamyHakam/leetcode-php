@@ -1,5 +1,5 @@
 {
-  "testData1": {
+  "testCase1": {
     "expectedResult": true,
     "input": {
       "tree": {
@@ -18,7 +18,7 @@
       }
     }
   },
-  "testData2": {
+  "testCase2": {
     "expectedResult": true,
     "input": {
       "tree": {
@@ -41,7 +41,7 @@
       }
     }
   },
-  "testData3": {
+  "testCase3": {
     "expectedResult": false,
     "input": {
       "tree": {

@@ -1,13 +1,13 @@
 {
-  "testData1": {
+  "testCase1": {
     "expectedResult":[1,2] ,
     "input": {"nums" :[3,2,4],"target" : 6}
   },
-  "testData2": {
+  "testCase2": {
     "expectedResult": [0,1] ,
     "input": {"nums" :[2,7,11,15],"target" : 9}
   },
-  "testData3": {
+  "testCase3": {
     "expectedResult":[0,1] ,
     "input": {"nums" :[3,3],"target" : 6}
   }

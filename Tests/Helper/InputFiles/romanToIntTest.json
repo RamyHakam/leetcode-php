@@ -1,9 +1,9 @@
 {
-  "testData1": {
+  "testCase1": {
     "expectedResult": 1994,
     "input": "MCMXCIV"
   },
-  "testData2": {
+  "testCase2": {
     "expectedResult": 3490,
     "input": "MMMCDXC"
   }
