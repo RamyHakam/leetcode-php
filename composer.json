@@ -1,7 +1,8 @@
 {
   "name": "hakam/leet_code_php",
   "description": "PHP solutions for leet code problems",
-  "require-dev": {
+
+  "require": {
     "phpunit/phpunit": "^9.5"
   },
   "license": "MIT",
@@ -15,8 +16,5 @@
       "name": "Ramy hakam",
       "email": "pencilsoft1@gmail.com"
     }
-  ],
-  "require": {
-    "php": "7.4.*"
-  }
+  ]
 }
