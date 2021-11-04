@@ -10,7 +10,7 @@ Many of these solutions are inspired by some other's solutions and ideas, But fu
 ## How To Use This List
 - Each problem has Three files `Solution, Test, and Input.json` Sorted by Category. 📂📂📂
 - Check The solution and Validate it per Category.☑️✅
-- Check Th input File for That Problem in `Tests\Helper\InputFiles`.🧪🔦
+- Check The input File for That Problem in `Tests\Helper\InputFiles`.🧪🔦
 - Run the test file for that problem in `Tests\{Category}` Folder.⌛️🤔
 - Add more Test Cases data into The input File following the Same existing format `JSON` 🥸😉
 - Run The Test again to check the solution against your new test cases automatically ☑️✅🙏🏻
