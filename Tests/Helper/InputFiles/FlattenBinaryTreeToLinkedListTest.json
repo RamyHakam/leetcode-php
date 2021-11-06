@@ -1,0 +1,18 @@
+{
+  "testCase1": {
+    "expectedResult": [1,null,2,null,3,null,4,null,5,null,6],
+    "input": {
+      "tree": {
+        "nodes": [
+          {"id": "1", "left": "2", "right": "5", "value": 1},
+          {"id": "2", "left": "3", "right": "4", "value": 2},
+          {"id": "3", "left": null, "right": null, "value": 3},
+          {"id": "4", "left": null, "right": null, "value": 4},
+          {"id": "5", "left": null, "right": "6", "value": 5},
+          {"id": "6", "left": null, "right": null, "value": 6}
+        ],
+        "root": "1"
+      }
+    }
+  }
+}

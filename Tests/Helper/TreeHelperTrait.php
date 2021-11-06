@@ -10,8 +10,7 @@ trait TreeHelperTrait
     protected function createBinaryTree(?array $treeList)
     {
         $this->list = $treeList['tree']['nodes'];
-        $tree = $this->createTreeNode($this->findNodeById($treeList['tree']['root']));
-        return $tree;
+        return $this->createTreeNode($this->findNodeById($treeList['tree']['root']));
     }
 
     private function createTreeNode(array $nodeData)
