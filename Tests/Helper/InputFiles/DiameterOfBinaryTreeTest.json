@@ -1,0 +1,27 @@
+{"testCase1": {
+  "expectedResult": 3,
+  "input": {
+    "tree": {
+      "nodes": [
+        {"id": "1", "left": "2", "right": "3", "value": 1},
+        {"id": "2", "left": "4", "right": "5", "value": 2},
+        {"id": "3", "left": null, "right": null, "value": 3},
+        {"id": "4", "left": null, "right": null, "value": 4},
+        {"id": "5", "left": null, "right": null, "value": 5}
+
+      ],
+      "root": "1"
+    }
+  }
+},
+  "testCase2": {
+    "expectedResult": 0,
+    "input": {
+      "tree": {
+        "nodes": [
+          {"id": "1", "left": null, "right": null, "value": 1}
+        ],
+        "root": "1"
+      }
+    }
+  }}
