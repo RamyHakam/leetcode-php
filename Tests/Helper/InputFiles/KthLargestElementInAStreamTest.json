@@ -1,6 +1,6 @@
 {
   "testCase1": {
-    "expectedResult": [null,-1,0,0,0,1],
+    "expectedResult": [-1,0,0,0,1],
     "input": [[2,[0]],[-1],[1],[-2],[-4],[3]]
   },
   "testCase2": {
