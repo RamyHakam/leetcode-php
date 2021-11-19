@@ -1,0 +1,56 @@
+{
+  "testCase1": {
+    "expectedResult": [[9],[3,15],[20],[7]],
+    "input": {
+      "tree": {
+        "nodes": [
+          {"id": "1", "left": "2", "right": "3", "value": 3},
+          {"id": "2", "left": null, "right": null, "value": 9},
+          {"id": "3", "left": "4", "right": "5", "value": 20},
+          {"id": "4", "left": null, "right": null, "value": 15},
+          {"id": "5", "left": null, "right": null, "value": 7}
+        ],
+        "root": "1"
+      }
+    }
+  },
+  "testCase2": {
+    "expectedResult": [[4],[9],[3,0,1],[8],[7]],
+    "input": {
+      "tree": {
+        "nodes": [
+          {"id": "1", "left": "2", "right": "3", "value": 3},
+          {"id": "2", "left": "4", "right": "5", "value": 9},
+          {"id": "3", "left": "6", "right": "7", "value": 8},
+          {"id": "4", "left": null, "right": null, "value": 4},
+          {"id": "5", "left": null, "right": null, "value": 0},
+          {"id": "6", "left": null, "right": null, "value": 1},
+          {"id": "7", "left": null, "right": null, "value": 7}
+        ],
+        "root": "1"
+      }
+    }
+  },
+  "testCase3": {
+    "expectedResult": [[4],[2,7,8],[1,5,6,10,11,10],[3,9]],
+    "input": {
+      "tree": {
+        "nodes": [
+          {"id": "1", "left": "2", "right": "3", "value": 1},
+          {"id": "2", "left": "4", "right": "5", "value": 2},
+          {"id": "3", "left": "6", "right": null, "value": 3},
+          {"id": "4", "left": null, "right": "7", "value": 4},
+          {"id": "5", "left": "8", "right": null, "value": 5},
+          {"id": "6", "left": null, "right": "9", "value": 6},
+          {"id": "7", "left": null, "right": "10", "value": 7},
+          {"id": "8", "left": null, "right": "11", "value": 8},
+          {"id": "9", "left": "12", "right": null, "value": 9},
+          {"id": "10", "left": null, "right": null, "value": 10},
+          {"id": "11", "left": null, "right": null, "value": 11},
+          {"id": "12", "left": null, "right": null, "value": 10}
+        ],
+        "root": "1"
+      }
+    }
+  }
+}

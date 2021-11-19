@@ -9,41 +9,29 @@ class BinaryTreeVerticalOrderTraversal
      * @return Integer[][]
      */
     private array $order = [];
+    private array $queue = [];
 
-    function verticalOrder($root) {
+    public function verticalOrder($root): array
+    {
+        if ($root === null) {
+            return [];
+        }
 
-        $this->verticalNodeOrder($root,0,0);
+        $this->queue [] = [$root, 0];
+
+        while (count($this->queue) !== 0) {
+            [$node, $index] = array_shift($this->queue);
+            $this->order[$index][] = $node->val;
+            if ($node->left !== null) {
+                $this->queue [] = [$node->left, $index - 1];
+            }
+
+            if ($node->right !== null) {
+                $this->queue [] = [$node->right, $index + 1];
+
+            }
+        }
         ksort($this->order);
         return $this->order;
-    }
-
-    public function verticalNodeOrder($node, $index,$row): void
-    {
-        if($node === null)
-        {
-            return;
-        }
-        if(isset($this->order[$index][$row]))
-        {
-            $newRow = $row+1;
-            while(isset($this->order[$index][$newRow]))
-            {
-                ++$newRow;
-            }
-           $this->order[$index][$newRow] = $node->val;
-        }else {
-            $this->order[$index][$row] = $node->val;
-        }
-        ksort($this->order[$index]);
-
-        if($node->left !== null)
-        {
-            $this->verticalNodeOrder($node->left,$index-1,$row+1);
-        }
-
-        if($node->right !== null)
-        {
-            $this->verticalNodeOrder($node->right,$index+1,$row+1);
-        }
     }
 }
