@@ -1,0 +1,19 @@
+{
+  "testCase1": {
+    "expectedResult": "One Hundred Twenty Three",
+    "input": 123
+  },
+  "testCase2": {
+    "expectedResult": "Twelve Thousand Three Hundred Forty Five",
+    "input": 12345
+  },
+
+  "testCase3": {
+    "expectedResult": "One Hundred Twenty Three Million Four Hundred Twelve Thousand Three Hundred Forty Five",
+    "input": 123412345
+  },
+  "testCase4": {
+    "expectedResult": "Twenty",
+    "input": 20
+  }
+}
