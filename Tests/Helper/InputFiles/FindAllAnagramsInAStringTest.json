@@ -1,0 +1,14 @@
+{
+  "testCase1": {
+    "expectedResult": [0,1,2],
+    "input": ["abab","ab"]
+  },
+  "testCase2": {
+    "expectedResult": [0,6],
+    "input": ["cbaebabacd","abc"]
+  },
+  "testCase3": {
+    "expectedResult": [1,2,3,5],
+    "input": ["abacbabc","abc"]
+  }
+}
