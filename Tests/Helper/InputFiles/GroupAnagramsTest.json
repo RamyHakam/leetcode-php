@@ -1,0 +1,10 @@
+{
+  "testCase1": {
+    "expectedResult": [["eat","tea","ate"],["tan","nat"],["bat"]],
+    "input": ["eat","tea","tan","ate","nat","bat"]
+  },
+  "testCase2": {
+    "expectedResult": [["a"]],
+    "input": ["a"]
+  }
+}
