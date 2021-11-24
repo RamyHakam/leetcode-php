@@ -28,5 +28,8 @@
             <directory suffix=".php">vendor/</directory>
             <directory suffix=".php">Tests/</directory>
         </exclude>
+        <report>
+            <clover outputFile="clover.xml" />
+        </report>
     </coverage>
 </phpunit>
