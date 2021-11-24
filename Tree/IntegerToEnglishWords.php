@@ -8,7 +8,7 @@ class IntegerToEnglishWords
      * @param Integer $num
      * @return String
      */
-    function numberToWords($num)
+  public  function numberToWords($num)
     {
         $b = (int)($num / 1000000000);
         $m = (int)(($num - $b * 1000000000) / 1000000);
@@ -30,7 +30,7 @@ class IntegerToEnglishWords
         return trim($numToWord);
     }
 
-    function ThreeToWord($num)
+  private  function ThreeToWord($num)
     {
         $hundred = (int)($num / 100);
         $rest = $num - $hundred * 100;
@@ -50,7 +50,7 @@ class IntegerToEnglishWords
         return $result;
     }
 
-    function convertOnes($num)
+  private function convertOnes($num)
     {
         switch ($num) {
             case 1:
@@ -85,7 +85,7 @@ class IntegerToEnglishWords
         }
     }
 
-    function TwoToWord($num)
+   private function TwoToWord($num)
     {
         if ($num == 0) {
             return '';
@@ -104,7 +104,7 @@ class IntegerToEnglishWords
         return $this->convertTens($tens);
     }
 
-    function convertLessThan20($num)
+   private function convertLessThan20($num)
     {
         switch ($num) {
             case 10:
@@ -141,7 +141,7 @@ class IntegerToEnglishWords
         return '';
     }
 
-    function convertTens($num)
+   private function convertTens($num)
     {
         switch ($num) {
             case 2:

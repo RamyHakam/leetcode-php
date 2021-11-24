@@ -5,6 +5,9 @@ namespace Hakam\LeetCodePhp\Tests\String;
 use Hakam\LeetCodePhp\String\LongestSubstringWithoutRepeatingCharacters;
 use Hakam\LeetCodePhp\Tests\Helper\MainTest;
 
+/**
+ * @covers \Hakam\LeetCodePhp\String\LongestSubstringWithoutRepeatingCharacters
+ */
 class LongestSubstringWithoutRepeatingCharactersTest extends MainTest
 {
     /**

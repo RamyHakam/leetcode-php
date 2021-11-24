@@ -6,6 +6,9 @@ use Hakam\LeetCodePhp\LinkedList\MergedToSortedList;
 use Hakam\LeetCodePhp\Tests\Helper\LinkedListHelperTrait;
 use Hakam\LeetCodePhp\Tests\Helper\MainTest;
 
+/**
+ * @covers \Hakam\LeetCodePhp\LinkedList\MergedToSortedList
+ */
 class MergedToSortedListTest extends MainTest
 {
     use LinkedListHelperTrait;

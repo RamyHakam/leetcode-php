@@ -6,6 +6,9 @@ use Hakam\LeetCodePhp\Tests\Helper\MainTest;
 use Hakam\LeetCodePhp\Tests\Helper\TreeHelperTrait;
 use Hakam\LeetCodePhp\Tree\PathSum;
 
+/**
+ * @covers \Hakam\LeetCodePhp\Tree\PathSum
+ */
 class PathSumTest extends MainTest
 {
     use TreeHelperTrait;

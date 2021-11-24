@@ -6,6 +6,9 @@ use Hakam\LeetCodePhp\LinkedList\ReverseLinkedList;
 use Hakam\LeetCodePhp\Tests\Helper\LinkedListHelperTrait;
 use Hakam\LeetCodePhp\Tests\Helper\MainTest;
 
+/**
+ * @covers \Hakam\LeetCodePhp\LinkedList\ReverseLinkedList
+ */
 class ReverseLinkedListTest extends MainTest
 {
     use LinkedListHelperTrait;

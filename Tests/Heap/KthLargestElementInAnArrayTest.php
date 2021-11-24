@@ -5,6 +5,9 @@ namespace Hakam\LeetCodePhp\Tests\Heap;
 use Hakam\LeetCodePhp\Heap\KthLargestElementInAnArray;
 use Hakam\LeetCodePhp\Tests\Helper\MainTest;
 
+/**
+ * @covers \Hakam\LeetCodePhp\Heap\KthLargestElementInAnArray
+ */
 class KthLargestElementInAnArrayTest extends MainTest
 {
     /**

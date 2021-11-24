@@ -5,6 +5,9 @@ namespace ArrayProblems;
 use Hakam\LeetCodePhp\ArrayProblems\MergeSortedArray;
 use Hakam\LeetCodePhp\Tests\Helper\MainTest;
 
+/**
+ * @covers \Hakam\LeetCodePhp\ArrayProblems\MergeSortedArray
+ */
 class MergeSortedArrayTest extends MainTest
 {
     /**

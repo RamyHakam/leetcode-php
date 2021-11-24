@@ -5,6 +5,9 @@ namespace ArrayProblems;
 use Hakam\LeetCodePhp\ArrayProblems\RemoveElement;
 use Hakam\LeetCodePhp\Tests\Helper\MainTest;
 
+/**
+ * @covers \Hakam\LeetCodePhp\ArrayProblems\RemoveElement
+ */
 class RemoveElementTest extends MainTest
 {
     /**

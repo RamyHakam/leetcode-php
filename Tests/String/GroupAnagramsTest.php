@@ -5,6 +5,9 @@ namespace Hakam\LeetCodePhp\Tests\String;
 use Hakam\LeetCodePhp\String\GroupAnagrams;
 use Hakam\LeetCodePhp\Tests\Helper\MainTest;
 
+/**
+ * @covers \Hakam\LeetCodePhp\String\GroupAnagrams
+ */
 class GroupAnagramsTest extends MainTest
 {
     /**

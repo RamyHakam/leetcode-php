@@ -5,10 +5,14 @@ namespace ArrayProblems;
 use Hakam\LeetCodePhp\ArrayProblems\MergeIntervals;
 use Hakam\LeetCodePhp\Tests\Helper\MainTest;
 
+/**
+ * @covers \Hakam\LeetCodePhp\ArrayProblems\MergeIntervals
+ */
 class MergeIntervalsTest extends MainTest
 {
     /**
      * @dataProvider provideData
+     *
      */
     public function testWithDataList($expectedResult, $inputData): void
     {

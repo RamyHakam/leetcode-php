@@ -7,6 +7,9 @@ use Hakam\LeetCodePhp\LinkedList\ReOrderList;
 use Hakam\LeetCodePhp\Tests\Helper\LinkedListHelperTrait;
 use Hakam\LeetCodePhp\Tests\Helper\MainTest;
 
+/**
+ * @covers \Hakam\LeetCodePhp\LinkedList\ReOrderList
+ */
 class ReOrderListTest extends MainTest
 {
     use LinkedListHelperTrait;

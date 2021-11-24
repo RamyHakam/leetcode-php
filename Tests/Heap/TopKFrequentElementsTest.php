@@ -5,6 +5,10 @@ namespace Hakam\LeetCodePhp\Tests\Heap;
 use Hakam\LeetCodePhp\Heap\TopKFrequentElements;
 use Hakam\LeetCodePhp\Tests\Helper\MainTest;
 
+/**
+ * @covers \Hakam\LeetCodePhp\Heap\TopKFrequentElements
+ * @covers \Hakam\LeetCodePhp\Heap\PQ
+ */
 class TopKFrequentElementsTest extends MainTest
 {
     /**

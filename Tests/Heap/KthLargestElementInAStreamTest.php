@@ -5,6 +5,9 @@ namespace Hakam\LeetCodePhp\Tests\Heap;
 use Hakam\LeetCodePhp\Heap\KthLargestElementInAStream;
 use Hakam\LeetCodePhp\Tests\Helper\MainTest;
 
+/**
+ * @covers \Hakam\LeetCodePhp\Heap\KthLargestElementInAStream
+ */
 class KthLargestElementInAStreamTest extends MainTest
 {
 

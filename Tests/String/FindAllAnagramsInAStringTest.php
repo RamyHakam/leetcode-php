@@ -5,6 +5,9 @@ namespace Hakam\LeetCodePhp\Tests\String;
 use Hakam\LeetCodePhp\String\FindAllAnagramsInAString;
 use Hakam\LeetCodePhp\Tests\Helper\MainTest;
 
+/**
+ * @covers \Hakam\LeetCodePhp\String\FindAllAnagramsInAString
+ */
 class FindAllAnagramsInAStringTest extends MainTest
 {
     /**

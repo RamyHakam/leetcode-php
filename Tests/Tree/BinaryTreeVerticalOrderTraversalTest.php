@@ -6,6 +6,9 @@ use Hakam\LeetCodePhp\Tests\Helper\MainTest;
 use Hakam\LeetCodePhp\Tests\Helper\TreeHelperTrait;
 use Hakam\LeetCodePhp\Tree\BinaryTreeVerticalOrderTraversal;
 
+/**
+ * @covers \Hakam\LeetCodePhp\Tree\BinaryTreeVerticalOrderTraversal
+ */
 class BinaryTreeVerticalOrderTraversalTest extends MainTest
 {
     use TreeHelperTrait;

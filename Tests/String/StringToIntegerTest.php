@@ -5,6 +5,9 @@ namespace Hakam\LeetCodePhp\Tests\String;
 use Hakam\LeetCodePhp\String\StringToInteger;
 use Hakam\LeetCodePhp\Tests\Helper\MainTest;
 
+/**
+ * @covers \Hakam\LeetCodePhp\String\StringToInteger
+ */
 class StringToIntegerTest extends MainTest
 {
     /**

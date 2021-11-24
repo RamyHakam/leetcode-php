@@ -5,6 +5,9 @@ namespace ArrayProblems;
 use Hakam\LeetCodePhp\ArrayProblems\MoveZeroes;
 use Hakam\LeetCodePhp\Tests\Helper\MainTest;
 
+/**
+ * @covers \Hakam\LeetCodePhp\ArrayProblems\MoveZeroes
+ */
 class MoveZeroesTest extends MainTest
 {
     /**

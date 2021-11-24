@@ -5,6 +5,9 @@ namespace Hakam\LeetCodePhp\Tests\String;
 use Hakam\LeetCodePhp\String\RemoveAllAdjacentDuplicatesInString;
 use Hakam\LeetCodePhp\Tests\Helper\MainTest;
 
+/**
+ * @covers \Hakam\LeetCodePhp\String\RemoveAllAdjacentDuplicatesInString
+ */
 class RemoveAllAdjacentDuplicatesInStringTest extends MainTest
 {
     /**

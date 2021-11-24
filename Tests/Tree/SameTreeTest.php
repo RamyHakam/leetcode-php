@@ -6,6 +6,9 @@ use Hakam\LeetCodePhp\Tests\Helper\MainTest;
 use Hakam\LeetCodePhp\Tests\Helper\TreeHelperTrait;
 use Hakam\LeetCodePhp\Tree\SameTree;
 
+/**
+ * @covers \Hakam\LeetCodePhp\Tree\SameTree
+ */
 class SameTreeTest extends MainTest
 {
     use TreeHelperTrait;

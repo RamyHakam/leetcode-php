@@ -5,7 +5,10 @@ namespace Hakam\LeetCodePhp\Tests\String;
 use Hakam\LeetCodePhp\String\RomanToInteger;
 use Hakam\LeetCodePhp\Tests\Helper\MainTest;
 
-class romanToIntTest extends MainTest
+/**
+ * @covers \Hakam\LeetCodePhp\String\RomanToInteger
+ */
+class RomanToIntTest extends MainTest
 {
     /**
      * @dataProvider provideData

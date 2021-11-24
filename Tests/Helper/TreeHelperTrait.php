@@ -4,14 +4,29 @@ namespace Hakam\LeetCodePhp\Tests\Helper;
 
 use Hakam\LeetCodePhp\Tree\TreeNode;
 
+/**
+ * @codeCoverageIgnore
+ */
 trait TreeHelperTrait
 {
     private  $list = [];
+
+    /**
+     * @param array|null $treeList
+     * @return TreeNode
+     * @codeCoverageIgnore
+     */
     protected function createBinaryTree(?array $treeList)
     {
         $this->list = $treeList['tree']['nodes'];
         return $this->createTreeNode($this->findNodeById($treeList['tree']['root']));
     }
+
+    /**
+     * @param array $nodeData
+     * @return TreeNode
+     * @codeCoverageIgnore
+     */
 
     private function createTreeNode(array $nodeData)
     {

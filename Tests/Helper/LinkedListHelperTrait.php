@@ -4,6 +4,9 @@ namespace Hakam\LeetCodePhp\Tests\Helper;
 
 use Hakam\LeetCodePhp\LinkedList\ListNode;
 
+/**
+ * @codeCoverageIgnore
+ */
 trait LinkedListHelperTrait
 {
     protected function convertToArray(?ListNode $node): ?array

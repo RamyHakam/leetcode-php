@@ -5,6 +5,9 @@ namespace Hakam\LeetCodePhp\Tests\Heap;
 use Hakam\LeetCodePhp\Heap\MedianStream;
 use Hakam\LeetCodePhp\Tests\Helper\MainTest;
 
+/**
+ * @covers \Hakam\LeetCodePhp\Heap\MedianStream
+ */
 class MedianStreamTest extends MainTest
 {
     /**

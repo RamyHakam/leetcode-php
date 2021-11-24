@@ -1,0 +1,6 @@
+{
+  "testCase1": {
+    "expectedResult": [3,9,20,null,null,15,7],
+    "input": [[3,9,20,15,7],[9,3,15,20,7]]
+  }
+}

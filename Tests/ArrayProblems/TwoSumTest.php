@@ -5,6 +5,9 @@ namespace Hakam\LeetCodePhp\Tests\ArrayProblems;
 use Hakam\LeetCodePhp\ArrayProblems\TwoSum;
 use Hakam\LeetCodePhp\Tests\Helper\MainTest;
 
+/**
+ * @covers \Hakam\LeetCodePhp\ArrayProblems\TwoSum
+ */
 class TwoSumTest extends MainTest
 {
 

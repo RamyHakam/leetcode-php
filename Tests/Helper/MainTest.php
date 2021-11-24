@@ -6,6 +6,9 @@ use JsonException;
 use PHPUnit\Framework\TestCase;
 use ReflectionClass;
 
+/**
+ * @codeCoverageIgnore
+ */
 abstract class MainTest extends TestCase
 {
     /**

@@ -7,6 +7,9 @@ use Hakam\LeetCodePhp\Tests\Helper\TreeHelperTrait;
 use Hakam\LeetCodePhp\Tree\FlattenBinaryTreeToLinkedList;
 use Hakam\LeetCodePhp\Tree\TreeNode;
 
+/**
+ * @covers \Hakam\LeetCodePhp\Tree\FlattenBinaryTreeToLinkedList
+ */
 class FlattenBinaryTreeToLinkedListTest extends MainTest
 {
     use TreeHelperTrait;

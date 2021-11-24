@@ -6,6 +6,9 @@ use Hakam\LeetCodePhp\Tests\Helper\MainTest;
 use Hakam\LeetCodePhp\Tests\Helper\TreeHelperTrait;
 use Hakam\LeetCodePhp\Tree\BinaryTreeRightSideView;
 
+/**
+ * @covers \Hakam\LeetCodePhp\Tree\BinaryTreeRightSideView
+ */
 class BinaryTreeRightSideViewTest extends MainTest
 {
     use TreeHelperTrait;

@@ -1,0 +1,10 @@
+{
+  "testCase1": {
+    "expectedResult": "aa",
+    "input": ["deeedbbcccbdaa",3]
+  },
+  "testCase2": {
+    "expectedResult": "abcd",
+    "input": ["abcd",2]
+  }
+}

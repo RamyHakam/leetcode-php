@@ -6,6 +6,9 @@ use Hakam\LeetCodePhp\Tests\Helper\MainTest;
 use Hakam\LeetCodePhp\Tests\Helper\TreeHelperTrait;
 use Hakam\LeetCodePhp\Tree\DiameterOfBinaryTree;
 
+/**
+ * @covers \Hakam\LeetCodePhp\Tree\DiameterOfBinaryTree
+ */
 class DiameterOfBinaryTreeTest extends MainTest
 {
     use TreeHelperTrait;
