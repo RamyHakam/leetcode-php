@@ -2,7 +2,7 @@
 
 namespace Hakam\LeetCodePhp\Tree;
 
-class IsSameTree
+class SameTree
 {
     /**
      * @param TreeNode $p
