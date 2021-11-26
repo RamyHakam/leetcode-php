@@ -1,0 +1,14 @@
+{
+  "testCase1": {
+    "expectedResult":[2],
+    "input": [[1,2],2]
+  },
+  "testCase2": {
+    "expectedResult":[1,2,3,5],
+    "input": [[1,2,3,4,5],2]
+  },
+  "testCase3": {
+    "expectedResult":[],
+    "input": [[1],1]
+  }
+}

@@ -4,6 +4,7 @@ namespace Hakam\LeetCodePhp\LinkedList;
 
 /**
  * @covers \Hakam\LeetCodePhp\LinkedList\ListNode
+ * @codeCoverageIgnore
  */
 class ListNode
 {
@@ -13,7 +14,7 @@ class ListNode
     /**
      * @param int $val
      * @param null $next
-     * @codeCoverageIgnore
+
      */
     public function __construct($val = 0, $next = null)
     {
