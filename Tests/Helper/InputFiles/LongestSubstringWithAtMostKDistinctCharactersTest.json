@@ -1,0 +1,22 @@
+{
+  "testCase1": {
+    "expectedResult": 3,
+    "input": ["eceba",2]
+  },
+  "testCase2": {
+    "expectedResult": 4,
+    "input": ["abaccc",2]
+  },
+  "testCase3": {
+    "expectedResult": 2,
+    "input": ["aa",1]
+  },
+  "testCase4": {
+    "expectedResult": 5,
+    "input": ["ccaabbb",2]
+  },
+  "testCase5": {
+    "expectedResult": 2,
+    "input": ["abee",1]
+  }
+}
