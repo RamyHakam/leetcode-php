@@ -4,6 +4,9 @@ namespace Hakam\LeetCodePhp\ArrayProblems;
 
 use SplMinHeap;
 
+/**
+ * LeetCode Problem Link : https://leetcode.com/problems/merge-sorted-array
+ */
 class MergeSortedArray
 {
     /**
@@ -11,10 +14,10 @@ class MergeSortedArray
      * @param Integer $m
      * @param Integer[] $nums2
      * @param Integer $n
-     * @return NULL
+     * @return void
      */
 
-    function mergeByHeap(&$nums1, $m, $nums2, $n)
+    public function mergeByHeap(array &$nums1, int $m, array $nums2, int $n): void
     {
         $minHeap = new SplMinHeap();
         for ($index = 0; $index < $m + $n; $index++) {
@@ -28,10 +31,9 @@ class MergeSortedArray
         for ($index = 0; $index < $m + $n; $index++) {
             $nums1[$index] = $minHeap->extract();
         }
-        return null;
     }
 
-    function mergeByPointers(&$nums1, $m, $nums2, $n)
+    public function mergeByPointers(&$nums1, $m, $nums2, $n): void
     {
         for ($i = 0; $i < $m; $i++) {
             $nums1Copy[$i] = $nums1[$i];

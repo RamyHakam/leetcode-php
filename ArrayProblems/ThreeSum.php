@@ -2,20 +2,23 @@
 
 namespace Hakam\LeetCodePhp\ArrayProblems;
 
+/**
+ * LeetCode Problem Link: https://leetcode.com/problems/3sum
+ */
 class ThreeSum
 {
     /**
      * @param Integer[] $nums
      * @return Integer[][]
      */
-    function threeSum($nums)
+    public function threeSum(array $nums): array
     {
         sort($nums);
         $count = count($nums);
         $listOf3Sum = [];
         for ($index = 0; $index < $count; $index++) {
             $number = $nums[$index];
-            if ($index > 0 && $number == $nums[$index - 1]) {
+            if ($index > 0 && $number === $nums[$index - 1]) {
                 continue;
             }
             $leftPointer = $index + 1;
@@ -29,7 +32,7 @@ class ThreeSum
                 } else {
                     $listOf3Sum [] = [$number, $nums[$leftPointer], $nums[$rightPointer]];
                     ++$leftPointer;
-                    while (isset($nums[$leftPointer], $nums[$leftPointer - 1]) && $nums[$leftPointer] == $nums[$leftPointer - 1]) {
+                    while (isset($nums[$leftPointer], $nums[$leftPointer - 1]) && $nums[$leftPointer] === $nums[$leftPointer - 1]) {
                         ++$leftPointer;
                     }
                 }

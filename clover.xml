@@ -1,121 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1637760877">
-  <project timestamp="1637760877">
+<coverage generated="1638465375">
+  <project timestamp="1638465375">
     <file name="/Users/ramy.hakam/leet_code_php/ArrayProblems/MergeIntervals.php">
       <class name="Hakam\LeetCodePhp\ArrayProblems\MergeIntervals" namespace="global">
         <metrics complexity="6" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="12" elements="14" coveredelements="12"/>
       </class>
-      <line num="11" type="method" name="merge" visibility="public" complexity="6" crap="6.02" count="2"/>
-      <line num="12" type="stmt" count="2"/>
-      <line num="13" type="stmt" count="2"/>
-      <line num="15" type="stmt" count="0"/>
+      <line num="14" type="method" name="merge" visibility="public" complexity="6" crap="6.02" count="2"/>
+      <line num="16" type="stmt" count="2"/>
       <line num="17" type="stmt" count="2"/>
-      <line num="18" type="stmt" count="2"/>
-      <line num="19" type="stmt" count="2"/>
-      <line num="20" type="stmt" count="2"/>
+      <line num="19" type="stmt" count="0"/>
+      <line num="21" type="stmt" count="2"/>
       <line num="22" type="stmt" count="2"/>
+      <line num="23" type="stmt" count="2"/>
       <line num="24" type="stmt" count="2"/>
-      <line num="27" type="stmt" count="2"/>
+      <line num="26" type="stmt" count="2"/>
       <line num="28" type="stmt" count="2"/>
-      <line num="29" type="stmt" count="2"/>
+      <line num="31" type="stmt" count="2"/>
       <line num="32" type="stmt" count="2"/>
-      <line num="34" type="stmt" count="1"/>
-      <metrics loc="33" ncloc="29" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="12" elements="14" coveredelements="12"/>
+      <line num="33" type="stmt" count="2"/>
+      <line num="36" type="stmt" count="2"/>
+      <line num="38" type="stmt" count="1"/>
+      <metrics loc="37" ncloc="30" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="12" elements="14" coveredelements="12"/>
     </file>
     <file name="/Users/ramy.hakam/leet_code_php/ArrayProblems/MergeSortedArray.php">
       <class name="Hakam\LeetCodePhp\ArrayProblems\MergeSortedArray" namespace="global">
         <metrics complexity="10" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="18" elements="20" coveredelements="20"/>
       </class>
-      <line num="17" type="method" name="mergeByHeap" visibility="public" complexity="4" crap="4" count="1"/>
-      <line num="19" type="stmt" count="1"/>
-      <line num="20" type="stmt" count="1"/>
-      <line num="21" type="stmt" count="1"/>
+      <line num="20" type="method" name="mergeByHeap" visibility="public" complexity="4" crap="4" count="1"/>
       <line num="22" type="stmt" count="1"/>
+      <line num="23" type="stmt" count="1"/>
       <line num="24" type="stmt" count="1"/>
-      <line num="26" type="stmt" count="1"/>
-      <line num="28" type="stmt" count="1"/>
+      <line num="25" type="stmt" count="1"/>
+      <line num="27" type="stmt" count="1"/>
       <line num="29" type="stmt" count="1"/>
       <line num="31" type="stmt" count="1"/>
-      <line num="34" type="method" name="mergeByPointers" visibility="public" complexity="6" crap="6" count="1"/>
-      <line num="36" type="stmt" count="1"/>
-      <line num="37" type="stmt" count="1"/>
+      <line num="32" type="stmt" count="1"/>
+      <line num="34" type="stmt" count="1"/>
+      <line num="36" type="method" name="mergeByPointers" visibility="public" complexity="6" crap="6" count="1"/>
+      <line num="38" type="stmt" count="1"/>
       <line num="39" type="stmt" count="1"/>
-      <line num="40" type="stmt" count="1"/>
       <line num="41" type="stmt" count="1"/>
       <line num="42" type="stmt" count="1"/>
       <line num="43" type="stmt" count="1"/>
+      <line num="44" type="stmt" count="1"/>
       <line num="45" type="stmt" count="1"/>
-      <line num="48" type="stmt" count="1"/>
-      <line num="49" type="stmt" count="1"/>
-      <metrics loc="48" ncloc="41" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="18" elements="20" coveredelements="20"/>
+      <line num="47" type="stmt" count="1"/>
+      <line num="50" type="stmt" count="1"/>
+      <line num="51" type="stmt" count="1"/>
+      <metrics loc="50" ncloc="40" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="18" elements="20" coveredelements="20"/>
     </file>
     <file name="/Users/ramy.hakam/leet_code_php/ArrayProblems/MoveZeroes.php">
       <class name="Hakam\LeetCodePhp\ArrayProblems\MoveZeroes" namespace="global">
         <metrics complexity="3" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
       </class>
-      <line num="11" type="method" name="moveZeroes" visibility="public" complexity="3" crap="3" count="2"/>
-      <line num="12" type="stmt" count="2"/>
-      <line num="13" type="stmt" count="2"/>
-      <line num="14" type="stmt" count="2"/>
-      <line num="15" type="stmt" count="2"/>
+      <line num="14" type="method" name="moveZeroes" visibility="public" complexity="3" crap="3" count="2"/>
+      <line num="16" type="stmt" count="2"/>
+      <line num="17" type="stmt" count="2"/>
       <line num="18" type="stmt" count="2"/>
-      <line num="19" type="stmt" count="1"/>
-      <metrics loc="18" ncloc="14" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
+      <line num="19" type="stmt" count="2"/>
+      <line num="22" type="stmt" count="2"/>
+      <line num="23" type="stmt" count="1"/>
+      <metrics loc="22" ncloc="15" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
     </file>
     <file name="/Users/ramy.hakam/leet_code_php/ArrayProblems/RemoveElement.php">
       <class name="Hakam\LeetCodePhp\ArrayProblems\RemoveElement" namespace="global">
         <metrics complexity="3" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
       </class>
-      <line num="12" type="method" name="removeElement" visibility="public" complexity="3" crap="3" count="2"/>
-      <line num="14" type="stmt" count="2"/>
-      <line num="15" type="stmt" count="2"/>
-      <line num="17" type="stmt" count="1"/>
-      <line num="18" type="stmt" count="1"/>
-      <line num="21" type="stmt" count="2"/>
-      <line num="23" type="stmt" count="1"/>
-      <metrics loc="22" ncloc="17" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
+      <line num="15" type="method" name="removeElement" visibility="public" complexity="3" crap="3" count="2"/>
+      <line num="17" type="stmt" count="2"/>
+      <line num="18" type="stmt" count="2"/>
+      <line num="20" type="stmt" count="1"/>
+      <line num="21" type="stmt" count="1"/>
+      <line num="24" type="stmt" count="2"/>
+      <line num="26" type="stmt" count="1"/>
+      <metrics loc="25" ncloc="17" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
     </file>
     <file name="/Users/ramy.hakam/leet_code_php/ArrayProblems/ThreeSum.php">
       <class name="Hakam\LeetCodePhp\ArrayProblems\ThreeSum" namespace="global">
         <metrics complexity="9" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="20" coveredstatements="20" elements="21" coveredelements="21"/>
       </class>
-      <line num="11" type="method" name="threeSum" visibility="public" complexity="9" crap="9" count="7"/>
-      <line num="13" type="stmt" count="7"/>
-      <line num="14" type="stmt" count="7"/>
-      <line num="15" type="stmt" count="7"/>
+      <line num="14" type="method" name="threeSum" visibility="public" complexity="9" crap="9" count="7"/>
       <line num="16" type="stmt" count="7"/>
-      <line num="17" type="stmt" count="6"/>
-      <line num="18" type="stmt" count="6"/>
-      <line num="19" type="stmt" count="5"/>
+      <line num="17" type="stmt" count="7"/>
+      <line num="18" type="stmt" count="7"/>
+      <line num="19" type="stmt" count="7"/>
+      <line num="20" type="stmt" count="6"/>
       <line num="21" type="stmt" count="6"/>
-      <line num="22" type="stmt" count="6"/>
-      <line num="23" type="stmt" count="6"/>
-      <line num="24" type="stmt" count="5"/>
-      <line num="25" type="stmt" count="5"/>
-      <line num="26" type="stmt" count="4"/>
+      <line num="22" type="stmt" count="5"/>
+      <line num="24" type="stmt" count="6"/>
+      <line num="25" type="stmt" count="6"/>
+      <line num="26" type="stmt" count="6"/>
       <line num="27" type="stmt" count="5"/>
-      <line num="28" type="stmt" count="3"/>
+      <line num="28" type="stmt" count="5"/>
+      <line num="29" type="stmt" count="4"/>
       <line num="30" type="stmt" count="5"/>
-      <line num="31" type="stmt" count="5"/>
-      <line num="32" type="stmt" count="5"/>
-      <line num="33" type="stmt" count="4"/>
-      <line num="38" type="stmt" count="7"/>
-      <line num="40" type="stmt" count="1"/>
-      <metrics loc="39" ncloc="35" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="20" coveredstatements="20" elements="21" coveredelements="21"/>
+      <line num="31" type="stmt" count="3"/>
+      <line num="33" type="stmt" count="5"/>
+      <line num="34" type="stmt" count="5"/>
+      <line num="35" type="stmt" count="5"/>
+      <line num="36" type="stmt" count="4"/>
+      <line num="41" type="stmt" count="7"/>
+      <line num="43" type="stmt" count="1"/>
+      <metrics loc="42" ncloc="35" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="20" coveredstatements="20" elements="21" coveredelements="21"/>
     </file>
     <file name="/Users/ramy.hakam/leet_code_php/ArrayProblems/TwoSum.php">
       <class name="Hakam\LeetCodePhp\ArrayProblems\TwoSum" namespace="global">
         <metrics complexity="4" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="5" elements="7" coveredelements="5"/>
       </class>
-      <line num="12" type="method" name="twoSum" visibility="public" complexity="4" crap="4.07" count="3"/>
-      <line num="14" type="stmt" count="3"/>
-      <line num="15" type="stmt" count="3"/>
+      <line num="15" type="method" name="twoSum" visibility="public" complexity="4" crap="4.07" count="3"/>
       <line num="17" type="stmt" count="3"/>
-      <line num="19" type="stmt" count="3"/>
-      <line num="21" type="stmt" count="3"/>
-      <line num="23" type="stmt" count="0"/>
-      <line num="25" type="stmt" count="1"/>
-      <metrics loc="24" ncloc="19" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="5" elements="7" coveredelements="5"/>
+      <line num="18" type="stmt" count="3"/>
+      <line num="20" type="stmt" count="3"/>
+      <line num="22" type="stmt" count="3"/>
+      <line num="24" type="stmt" count="3"/>
+      <line num="26" type="stmt" count="0"/>
+      <line num="28" type="stmt" count="1"/>
+      <metrics loc="27" ncloc="19" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="5" elements="7" coveredelements="5"/>
     </file>
     <file name="/Users/ramy.hakam/leet_code_php/Heap/KthLargestElementInAStream.php">
       <class name="Hakam\LeetCodePhp\Heap\KthLargestElementInAStream" namespace="global">
@@ -219,8 +219,7 @@
       <class name="Hakam\LeetCodePhp\LinkedList\ListNode" namespace="global">
         <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </class>
-      <line num="23" type="stmt" count="1"/>
-      <metrics loc="22" ncloc="14" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      <metrics loc="23" ncloc="14" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
     <file name="/Users/ramy.hakam/leet_code_php/LinkedList/MergedToSortedList.php">
       <class name="Hakam\LeetCodePhp\LinkedList\MergedToSortedList" namespace="global">
@@ -241,74 +240,118 @@
     </file>
     <file name="/Users/ramy.hakam/leet_code_php/LinkedList/ReOrderList.php">
       <class name="Hakam\LeetCodePhp\LinkedList\ReOrderList" namespace="global">
-        <metrics complexity="4" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="17" elements="18" coveredelements="18"/>
+        <metrics complexity="4" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="16" elements="17" coveredelements="17"/>
       </class>
-      <line num="12" type="method" name="reorderList" visibility="public" complexity="4" crap="4" count="2"/>
-      <line num="13" type="stmt" count="2"/>
-      <line num="14" type="stmt" count="2"/>
-      <line num="15" type="stmt" count="2"/>
+      <line num="14" type="method" name="reorderList" visibility="public" complexity="4" crap="4" count="2"/>
       <line num="16" type="stmt" count="2"/>
+      <line num="17" type="stmt" count="2"/>
       <line num="18" type="stmt" count="2"/>
       <line num="19" type="stmt" count="2"/>
-      <line num="21" type="stmt" count="2"/>
+      <line num="20" type="stmt" count="2"/>
       <line num="22" type="stmt" count="2"/>
       <line num="23" type="stmt" count="2"/>
+      <line num="24" type="stmt" count="2"/>
       <line num="25" type="stmt" count="2"/>
       <line num="26" type="stmt" count="2"/>
       <line num="27" type="stmt" count="2"/>
-      <line num="29" type="stmt" count="2"/>
+      <line num="28" type="stmt" count="2"/>
+      <line num="30" type="stmt" count="2"/>
       <line num="31" type="stmt" count="2"/>
       <line num="32" type="stmt" count="2"/>
-      <line num="33" type="stmt" count="2"/>
-      <line num="35" type="stmt" count="2"/>
-      <line num="37" type="stmt" count="1"/>
-      <metrics loc="36" ncloc="32" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="17" elements="18" coveredelements="18"/>
+      <line num="34" type="stmt" count="2"/>
+      <line num="36" type="stmt" count="1"/>
+      <metrics loc="35" ncloc="28" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="16" elements="17" coveredelements="17"/>
+    </file>
+    <file name="/Users/ramy.hakam/leet_code_php/LinkedList/RemoveNthNodeFromEndOfList.php">
+      <class name="Hakam\LeetCodePhp\LinkedList\RemoveNthNodeFromEndOfList" namespace="global">
+        <metrics complexity="3" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="14" elements="15" coveredelements="15"/>
+      </class>
+      <line num="12" type="method" name="removeNthFromEnd" visibility="public" complexity="3" crap="3" count="3"/>
+      <line num="14" type="stmt" count="3"/>
+      <line num="15" type="stmt" count="3"/>
+      <line num="16" type="stmt" count="3"/>
+      <line num="17" type="stmt" count="3"/>
+      <line num="18" type="stmt" count="3"/>
+      <line num="19" type="stmt" count="3"/>
+      <line num="20" type="stmt" count="3"/>
+      <line num="22" type="stmt" count="3"/>
+      <line num="23" type="stmt" count="3"/>
+      <line num="24" type="stmt" count="3"/>
+      <line num="25" type="stmt" count="1"/>
+      <line num="26" type="stmt" count="1"/>
+      <line num="29" type="stmt" count="3"/>
+      <line num="31" type="stmt" count="3"/>
+      <line num="33" type="stmt" count="1"/>
+      <metrics loc="32" ncloc="27" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="14" elements="15" coveredelements="15"/>
     </file>
     <file name="/Users/ramy.hakam/leet_code_php/LinkedList/ReverseLinkedList.php">
       <class name="Hakam\LeetCodePhp\LinkedList\ReverseLinkedList" namespace="global">
         <metrics complexity="2" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="9" coveredelements="9"/>
       </class>
-      <line num="7" type="method" name="reverseList" visibility="public" complexity="2" crap="2" count="2"/>
-      <line num="9" type="stmt" count="2"/>
-      <line num="10" type="stmt" count="2"/>
-      <line num="11" type="stmt" count="2"/>
+      <line num="10" type="method" name="reverseList" visibility="public" complexity="2" crap="2" count="2"/>
+      <line num="12" type="stmt" count="2"/>
       <line num="13" type="stmt" count="2"/>
       <line num="14" type="stmt" count="2"/>
       <line num="15" type="stmt" count="2"/>
       <line num="16" type="stmt" count="2"/>
+      <line num="17" type="stmt" count="2"/>
       <line num="18" type="stmt" count="2"/>
-      <line num="20" type="stmt" count="1"/>
-      <metrics loc="19" ncloc="19" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="9" coveredelements="9"/>
+      <line num="20" type="stmt" count="2"/>
+      <line num="22" type="stmt" count="1"/>
+      <metrics loc="21" ncloc="18" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="9" coveredelements="9"/>
+    </file>
+    <file name="/Users/ramy.hakam/leet_code_php/LinkedList/ReverseLinkedListII.php">
+      <class name="Hakam\LeetCodePhp\LinkedList\ReverseLinkedListII" namespace="global">
+        <metrics complexity="3" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="15" elements="16" coveredelements="16"/>
+      </class>
+      <line num="15" type="method" name="reverseBetween" visibility="public" complexity="3" crap="3" count="2"/>
+      <line num="17" type="stmt" count="2"/>
+      <line num="18" type="stmt" count="2"/>
+      <line num="20" type="stmt" count="2"/>
+      <line num="21" type="stmt" count="1"/>
+      <line num="24" type="stmt" count="2"/>
+      <line num="25" type="stmt" count="2"/>
+      <line num="26" type="stmt" count="2"/>
+      <line num="28" type="stmt" count="2"/>
+      <line num="29" type="stmt" count="2"/>
+      <line num="30" type="stmt" count="2"/>
+      <line num="31" type="stmt" count="2"/>
+      <line num="32" type="stmt" count="2"/>
+      <line num="35" type="stmt" count="2"/>
+      <line num="36" type="stmt" count="2"/>
+      <line num="37" type="stmt" count="2"/>
+      <line num="39" type="stmt" count="1"/>
+      <metrics loc="38" ncloc="29" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="15" elements="16" coveredelements="16"/>
     </file>
     <file name="/Users/ramy.hakam/leet_code_php/String/FindAllAnagramsInAString.php">
       <class name="Hakam\LeetCodePhp\String\FindAllAnagramsInAString" namespace="global">
         <metrics complexity="13" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="22" coveredstatements="20" elements="23" coveredelements="20"/>
       </class>
-      <line num="15" type="method" name="findAnagrams" visibility="public" complexity="13" crap="13.13" count="3"/>
-      <line num="18" type="stmt" count="3"/>
-      <line num="19" type="stmt" count="0"/>
+      <line num="18" type="method" name="findAnagrams" visibility="public" complexity="13" crap="13.13" count="3"/>
       <line num="21" type="stmt" count="3"/>
-      <line num="22" type="stmt" count="3"/>
-      <line num="23" type="stmt" count="3"/>
+      <line num="22" type="stmt" count="0"/>
       <line num="24" type="stmt" count="3"/>
+      <line num="25" type="stmt" count="3"/>
+      <line num="26" type="stmt" count="3"/>
       <line num="27" type="stmt" count="3"/>
-      <line num="28" type="stmt" count="3"/>
-      <line num="29" type="stmt" count="3"/>
+      <line num="30" type="stmt" count="3"/>
       <line num="31" type="stmt" count="3"/>
+      <line num="32" type="stmt" count="3"/>
       <line num="34" type="stmt" count="3"/>
-      <line num="35" type="stmt" count="3"/>
-      <line num="37" type="stmt" count="2"/>
-      <line num="40" type="stmt" count="3"/>
+      <line num="37" type="stmt" count="3"/>
+      <line num="38" type="stmt" count="3"/>
+      <line num="40" type="stmt" count="2"/>
       <line num="43" type="stmt" count="3"/>
-      <line num="44" type="stmt" count="2"/>
       <line num="46" type="stmt" count="3"/>
-      <line num="50" type="stmt" count="3"/>
-      <line num="51" type="stmt" count="3"/>
-      <line num="55" type="stmt" count="3"/>
-      <line num="56" type="stmt" count="3"/>
-      <line num="59" type="stmt" count="0"/>
-      <line num="61" type="stmt" count="1"/>
-      <metrics loc="60" ncloc="55" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="22" coveredstatements="20" elements="23" coveredelements="20"/>
+      <line num="47" type="stmt" count="2"/>
+      <line num="49" type="stmt" count="3"/>
+      <line num="53" type="stmt" count="3"/>
+      <line num="54" type="stmt" count="3"/>
+      <line num="58" type="stmt" count="3"/>
+      <line num="59" type="stmt" count="3"/>
+      <line num="62" type="stmt" count="0"/>
+      <line num="64" type="stmt" count="1"/>
+      <metrics loc="63" ncloc="55" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="22" coveredstatements="20" elements="23" coveredelements="20"/>
     </file>
     <file name="/Users/ramy.hakam/leet_code_php/String/GroupAnagrams.php">
       <class name="Hakam\LeetCodePhp\String\GroupAnagrams" namespace="global">
@@ -325,6 +368,51 @@
       <line num="25" type="stmt" count="2"/>
       <line num="27" type="stmt" count="1"/>
       <metrics loc="26" ncloc="22" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="9" coveredelements="9"/>
+    </file>
+    <file name="/Users/ramy.hakam/leet_code_php/String/LongestSubstringWithAtMostKDistinctCharacters.php">
+      <class name="Hakam\LeetCodePhp\String\LongestSubstringWithAtMostKDistinctCharacters" namespace="global">
+        <metrics complexity="4" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="13" elements="15" coveredelements="13"/>
+      </class>
+      <line num="12" type="method" name="lengthOfLongestSubstringKDistinct" visibility="public" complexity="4" crap="4.01" count="5"/>
+      <line num="14" type="stmt" count="5"/>
+      <line num="15" type="stmt" count="0"/>
+      <line num="18" type="stmt" count="5"/>
+      <line num="19" type="stmt" count="5"/>
+      <line num="20" type="stmt" count="5"/>
+      <line num="21" type="stmt" count="5"/>
+      <line num="22" type="stmt" count="5"/>
+      <line num="24" type="stmt" count="5"/>
+      <line num="25" type="stmt" count="5"/>
+      <line num="27" type="stmt" count="4"/>
+      <line num="28" type="stmt" count="4"/>
+      <line num="29" type="stmt" count="4"/>
+      <line num="31" type="stmt" count="5"/>
+      <line num="33" type="stmt" count="5"/>
+      <line num="35" type="stmt" count="1"/>
+      <metrics loc="34" ncloc="29" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="13" elements="15" coveredelements="13"/>
+    </file>
+    <file name="/Users/ramy.hakam/leet_code_php/String/LongestSubstringWithAtMostTwoDistinctCharacters.php">
+      <class name="Hakam\LeetCodePhp\String\LongestSubstringWithAtMostTwoDistinctCharacters" namespace="global">
+        <metrics complexity="4" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="15" elements="16" coveredelements="16"/>
+      </class>
+      <line num="11" type="method" name="lengthOfLongestSubstringTwoDistinct" visibility="public" complexity="4" crap="4" count="5"/>
+      <line num="13" type="stmt" count="5"/>
+      <line num="14" type="stmt" count="1"/>
+      <line num="17" type="stmt" count="4"/>
+      <line num="18" type="stmt" count="4"/>
+      <line num="19" type="stmt" count="4"/>
+      <line num="20" type="stmt" count="4"/>
+      <line num="22" type="stmt" count="4"/>
+      <line num="23" type="stmt" count="4"/>
+      <line num="24" type="stmt" count="4"/>
+      <line num="25" type="stmt" count="4"/>
+      <line num="26" type="stmt" count="4"/>
+      <line num="27" type="stmt" count="4"/>
+      <line num="28" type="stmt" count="4"/>
+      <line num="30" type="stmt" count="4"/>
+      <line num="32" type="stmt" count="4"/>
+      <line num="34" type="stmt" count="1"/>
+      <metrics loc="33" ncloc="29" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="15" elements="16" coveredelements="16"/>
     </file>
     <file name="/Users/ramy.hakam/leet_code_php/String/LongestSubstringWithoutRepeatingCharacters.php">
       <class name="Hakam\LeetCodePhp\String\LongestSubstringWithoutRepeatingCharacters" namespace="global">
@@ -349,15 +437,15 @@
       <class name="Hakam\LeetCodePhp\String\RemoveAllAdjacentDuplicatesInString" namespace="global">
         <metrics complexity="3" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="7" coveredelements="7"/>
       </class>
-      <line num="12" type="method" name="removeDuplicates" visibility="public" complexity="3" crap="3" count="2"/>
-      <line num="14" type="stmt" count="2"/>
-      <line num="15" type="stmt" count="2"/>
+      <line num="15" type="method" name="removeDuplicates" visibility="public" complexity="3" crap="3" count="2"/>
       <line num="17" type="stmt" count="2"/>
       <line num="18" type="stmt" count="2"/>
       <line num="20" type="stmt" count="2"/>
+      <line num="21" type="stmt" count="2"/>
       <line num="23" type="stmt" count="2"/>
-      <line num="25" type="stmt" count="1"/>
-      <metrics loc="24" ncloc="20" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="7" coveredelements="7"/>
+      <line num="26" type="stmt" count="2"/>
+      <line num="28" type="stmt" count="1"/>
+      <metrics loc="27" ncloc="20" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="7" coveredelements="7"/>
     </file>
     <file name="/Users/ramy.hakam/leet_code_php/String/RemoveAllAdjacentDuplicatesInStringII.php">
       <class name="Hakam\LeetCodePhp\String\RemoveAllAdjacentDuplicatesInStringII" namespace="global">
@@ -471,12 +559,11 @@
     </file>
     <file name="/Users/ramy.hakam/leet_code_php/Tree/BinaryTreeLevelOrderTraversal.php">
       <class name="Hakam\LeetCodePhp\Tree\BinaryTreeLevelOrderTraversal" namespace="global">
-        <metrics complexity="5" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="13" elements="15" coveredelements="13"/>
+        <metrics complexity="5" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="10" elements="12" coveredelements="10"/>
       </class>
-      <line num="14" type="method" name="levelOrder" visibility="public" complexity="5" crap="5.01" count="2"/>
-      <line num="16" type="stmt" count="2"/>
-      <line num="18" type="stmt" count="0"/>
-      <line num="20" type="stmt" count="2"/>
+      <line num="15" type="method" name="levelOrder" visibility="public" complexity="5" crap="5.02" count="2"/>
+      <line num="17" type="stmt" count="2"/>
+      <line num="19" type="stmt" count="0"/>
       <line num="21" type="stmt" count="2"/>
       <line num="22" type="stmt" count="2"/>
       <line num="23" type="stmt" count="2"/>
@@ -485,11 +572,9 @@
       <line num="28" type="stmt" count="2"/>
       <line num="29" type="stmt" count="2"/>
       <line num="30" type="stmt" count="2"/>
-      <line num="31" type="stmt" count="2"/>
       <line num="32" type="stmt" count="2"/>
-      <line num="35" type="stmt" count="2"/>
-      <line num="37" type="stmt" count="1"/>
-      <metrics loc="36" ncloc="32" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="13" elements="15" coveredelements="13"/>
+      <line num="34" type="stmt" count="1"/>
+      <metrics loc="33" ncloc="26" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="10" elements="12" coveredelements="10"/>
     </file>
     <file name="/Users/ramy.hakam/leet_code_php/Tree/BinaryTreePaths.php">
       <class name="Hakam\LeetCodePhp\Tree\BinaryTreePaths" namespace="global">
@@ -951,6 +1036,6 @@
       <line num="22" type="stmt" count="1"/>
       <metrics loc="21" ncloc="21" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="8" coveredelements="8"/>
     </file>
-    <metrics files="43" loc="1591" ncloc="1420" classes="42" methods="63" coveredmethods="37" conditionals="0" coveredconditionals="0" statements="584" coveredstatements="503" elements="647" coveredelements="540"/>
+    <metrics files="47" loc="1752" ncloc="1524" classes="46" methods="67" coveredmethods="40" conditionals="0" coveredconditionals="0" statements="638" coveredstatements="556" elements="705" coveredelements="596"/>
   </project>
 </coverage>

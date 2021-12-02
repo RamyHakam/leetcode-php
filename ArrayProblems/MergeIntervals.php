@@ -2,13 +2,17 @@
 
 namespace Hakam\LeetCodePhp\ArrayProblems;
 
+/**
+ * LeetCode Problem Link : https://leetcode.com/problems/merge-intervals
+ */
 class MergeIntervals
 {
     /**
      * @param Integer[][] $intervals
      * @return Integer[][]
      */
-    function merge($intervals) {
+    public function merge(array $intervals): array
+    {
         usort($intervals,function($i,$j){
             if($i[0] === $j[0])
             {

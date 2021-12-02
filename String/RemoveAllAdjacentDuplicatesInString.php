@@ -2,6 +2,9 @@
 
 namespace Hakam\LeetCodePhp\String;
 
+/**
+ * LeetCode Problem Link: https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string
+ */
 class RemoveAllAdjacentDuplicatesInString
 {
 

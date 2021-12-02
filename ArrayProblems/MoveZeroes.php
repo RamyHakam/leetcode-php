@@ -2,13 +2,17 @@
 
 namespace Hakam\LeetCodePhp\ArrayProblems;
 
+/**
+ * LeetCode Problem Link : https://leetcode.com/problems/move-zeroes
+ */
 class MoveZeroes
 {
     /**
      * @param Integer[] $nums
-     * @return NULL
+     * @return void
      */
-    function moveZeroes(&$nums) {
+    public function moveZeroes(array &$nums): void
+    {
         foreach ($nums as $i => $iValue) {
             if ($iValue === 0) {
                 unset($nums[$i]);

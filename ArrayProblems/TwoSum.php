@@ -2,6 +2,9 @@
 
 namespace Hakam\LeetCodePhp\ArrayProblems;
 
+/**
+ * LeetCode Problem Link: https://leetcode.com/problems/two-sum
+ */
 class TwoSum
 {
     /**
@@ -9,7 +12,7 @@ class TwoSum
      * @param Integer $target
      * @return Integer[]
      */
-    function twoSum($nums, $target): array
+    public function twoSum(array $nums, int $target): array
     {
        $hashList = [];
        foreach ($nums as $key => $num)

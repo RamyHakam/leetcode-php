@@ -2,30 +2,29 @@
 
 namespace Hakam\LeetCodePhp\LinkedList;
 
-
+/**
+ * LeetCode Problem Link: https://leetcode.com/problems/reorder-list
+ */
 class ReOrderList
 {
     /**
      * @param ListNode $head
      * @return NULL
      */
-    function reorderList(ListNode $head) {
+    public function reorderList(ListNode $head)
+    {
         $arrayList = [];
-        $order = new ListNode();
         $copyHead = $head;
-        while($copyHead != null)
-        {
+        while ($copyHead !== null) {
             $arrayList [] = $copyHead;
             $copyHead = $copyHead->next;
         }
-        $head = New ListNode();
+        $head = new ListNode();
         $order = $head;
-        while(!empty($arrayList))
-        {
+        while (!empty($arrayList)) {
             $temp = array_shift($arrayList);
             $tempNext = array_pop($arrayList);
-            if($tempNext !== null)
-            {
+            if ($tempNext !== null) {
                 $tempNext->next = null;
             }
             $temp->next = $tempNext;
