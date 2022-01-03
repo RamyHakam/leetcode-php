@@ -30,8 +30,7 @@ You are very welcomed if You want to Contribute 🥳 on that, And this is How :
 - Let us discuss about your solution in your PR 🥊🥊🥊
 - Done !! You are a Contributor now 🍻
 
-## License
-MIT
+
 
 **Free Software, Hell Yeah!**
 
