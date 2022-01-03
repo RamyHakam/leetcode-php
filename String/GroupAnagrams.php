@@ -5,7 +5,6 @@ namespace Hakam\LeetCodePhp\String;
 class GroupAnagrams
 {
     /**
-     * @param String[] $strs
      * @return String[][]
      */
     private array $hashList = [];
