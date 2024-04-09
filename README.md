@@ -1,5 +1,5 @@
 # LeetCode in PHP 😊🤓
-##  My Solutions with Many different Test Caess Fully in PHP 😍
+##  My Solutions with Many different Test Cases Fully in PHP 😍
 
 ![](https://github.com/RamyHakam/leet-code-php/workflows/Build/badge.svg)
 
